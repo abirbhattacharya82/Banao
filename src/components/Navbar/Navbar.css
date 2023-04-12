@@ -1,0 +1,74 @@
+.Navbar{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    border-bottom: 1px solid #E0E0E0;
+}
+.Navbar .LeftButtons{
+    display: flex;
+    justify-content: left;
+    width: 35%;
+}
+.Navbar .LeftButtons button{
+    font-size: 16px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    height: 42px;
+    border: none;
+    background-color: transparent;
+    color: #8A8A8A;
+}
+.Navbar .LeftButtons .active{
+    border-bottom: 1px solid black;
+    color: black;
+}
+.Navbar .RightButtons{
+    display: flex;
+    justify-content: right;
+    width:65%;
+}
+.Navbar .RightButtons button{
+    width: 20%;
+}
+.Navbar .RightButtons #wp{
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color: #EDEEF0;
+}
+.Navbar .RightButtons #wp .contain{
+    display: flex;
+}
+.Navbar .RightButtons #wp .Triangle{
+    width: 17px;
+    height: 20px;
+    clip-path: polygon(50% 70%, 0 0, 100% 0);
+    background-color: #2E2E2E;
+    margin-top: 1%;
+    margin-left: 3px;
+    border: 1px solid green;
+}
+.Navbar .RightButtons #jg{
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    background-color: #2F6CE5;
+}
+.Navbar .RightButtons #jg .Image{
+    width: 30%;
+    margin-right: 3px;
+}
+.Navbar .RightButtons #jg .Image img{
+    width: 100%;
+}

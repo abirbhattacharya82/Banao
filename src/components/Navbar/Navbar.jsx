@@ -1,26 +1,27 @@
 import React from "react";
 import './Navbar.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
+import Join from './Untitled.png';
 
 function Navbar(){
     return(
         <div className="Navbar">
             <div className="LeftButtons">
-                <button>All Posts(32)</button>
+                <button className="active">All Posts(32)</button>
                 <button>Article</button>
                 <button>Event</button>
                 <button>Education</button>
                 <button>Job</button>
             </div>
-            <div className="Gap"></div>
-            <div className="Right">
-                <button>
-                    Write Post 
-                    <div className="Triangle"></div>
+            <div className="RightButtons">
+                <button id="wp">
+                    <div className="contain">
+                        Write Post 
+                        <div className="Triangle"></div>
+                    </div>
                 </button>
-                <button>
-                    <FontAwesomeIcon icon={faUserPlus} />
+                <button id="jg">
+                    <div className="Image"><img src={Join} alt="" /></div>
+                    Join Group
                 </button>
             </div>
         </div>

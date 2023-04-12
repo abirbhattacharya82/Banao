@@ -131,12 +131,19 @@
     margin-right: 2px;
 }
 
+
+
+
+
+
+
+
 .LoginAreaDesktop {
     position: absolute;
     z-index: 1;
     width: 100%;
     height: 100vh;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -144,7 +151,6 @@
 
 .LoginAreaDesktop .Form {
     width: 736px;
-    border: 1px solid red;
 }
 
 .LoginAreaDesktop .Form .Crossbutton {
@@ -196,6 +202,7 @@
     width: 45%;
     padding-left: 5%;
     text-align: left;
+    font-weight: bold;
 }
 .LoginAreaDesktop .Form .FormfieldArea .Formfield .SecondLine .Right{
     display: flex;
@@ -255,8 +262,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 .LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm .Left .ButtonArea button{
     width: 100%;
@@ -269,4 +276,46 @@
     border-radius: 20px;
     border: none;
     color: white;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm .Left .ButtonArea a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10%;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm .Left .ButtonAreaSSO button {
+    width: 100%;
+    border: 1px solid #D9D9DB;
+    background-color: #F7F8FA;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin-bottom: 4%;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm .Left .ButtonAreaSSO button .icons{
+    width: 16px;
+    height: 16px;
+    color: #2F6CE5;
+    margin-right: 1%;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm .Right{
+    width: 50%;
+    height: 100%;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm .Right .Image{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm .Right .Image img{
+    width: 70%;
+}
+.Gap{
+    font-size: 11px;
+    padding: 5%;
+    opacity: 60%;
 }

@@ -46,7 +46,7 @@
 .Navbar .RightButtons #wp .contain{
     display: flex;
 }
-.Navbar .RightButtons #wp .Triangle{
+.Triangle{
     width: 10px;
     height: 15px;
     clip-path: polygon(50% 70%, 0 0, 100% 0);
@@ -72,4 +72,15 @@
 }
 .Navbar .RightButtons #jg .Image img{
     width: 100%;
+}
+.NavForMobile
+{
+    display: none;
+}
+@media(max-width:1000px)
+{
+    .Navbar
+    {
+        display: none;
+    }
 }

@@ -1,0 +1,29 @@
+.NavForMobile
+{
+    display: none;
+}
+@media(max-width:1000px)
+{
+    .NavForMobile
+    {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    #active
+    {
+        background-color: transparent;
+        border: none;
+        font-weight: bold;
+    }
+    .NavForMobile button
+    {
+        padding: 1%;
+        width: 45%;
+        margin: 5%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

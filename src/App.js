@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Banner from './components/Banner/Banner';
 import Navbar from './components/Navbar/Navbar';
 import Articles from './components/Articles/Articles';
+import MobileNav from './components/MobileNav/MobileNav';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Banner />
       <Navbar />
+      <MobileNav />
       <Articles />
     </div>
   );

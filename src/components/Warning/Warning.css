@@ -1,0 +1,15 @@
+.Warning{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+#war_ic{
+    font-size: 16px;
+}
+.Warning .RightWarning{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    width: 85%;
+    margin-left: 2%;
+}

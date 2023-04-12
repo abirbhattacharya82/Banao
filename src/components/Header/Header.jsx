@@ -68,7 +68,7 @@ function Header() {
                                     </div>
                                     <div className="ButtonAreaSSO">
                                         <button>
-                                            {/* Add Google Icon */} Sign In with Google
+                                        <img src="https://img.icons8.com/color/48/null/google-logo.png" alt="" /> Sign In with Google
                                         </button>
                                     </div>
                                 </div>

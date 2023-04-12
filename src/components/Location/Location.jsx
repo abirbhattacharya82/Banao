@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import Warning from '../Warning/Warning';
+import Groups from '../Groups/Groups';
 
 function Location() {
     return (
@@ -18,6 +19,7 @@ function Location() {
                 </div>
                 <br />
                 <Warning />
+                <Groups />
             </div>
         </div>
     )

@@ -1,0 +1,67 @@
+.Groups{
+    margin-left: 9%;
+    margin-top: 54px;
+    text-align: left;
+}
+.Groups .Heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+.Groups .Heading .Image{
+    margin-right: 2%;
+}
+.like{
+    color:black;
+}
+.Texti{
+    color: black;
+}
+
+
+.Group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.Group .Image{
+    width: 36px;
+    height: 36px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.Group .Name{
+    font-size: 14px;
+    margin-left: 2%;
+    height: 100%;
+    width: 50%;
+}
+.Button{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+}
+.Button button{
+    border: none;
+    padding: 20%;
+    border-radius: 20px;
+    background-color: #EDEEF0;
+}
+
+#grp1{
+    background-image: url("./leisure.jpg");
+}
+#grp2{
+    background-image: url("./activism.jpg");
+}
+#grp3{
+    background-image: url("./mba.jpg");
+}
+#grp4{
+    background-image: url("./philosophy.jpg");
+}

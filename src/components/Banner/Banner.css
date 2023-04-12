@@ -3,6 +3,9 @@
     background-image: url("./computer-engineering-background.jpg");
     background-size: cover;
 }
+.ButtonAreaMobile{
+    display: none;
+}
 .Banner .Text{
     padding-top: 286px;
     padding-left: 200px;
@@ -21,4 +24,64 @@
     font-weight: 400;
     font-size: 18px;
     margin-top: 4px;
+}
+
+@media(max-width:1000px)
+{
+    .Banner
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .Banner .Text
+    {
+        padding: 0%;
+        height: 100%;
+    }
+    .Banner .Heading
+    {
+        padding-left: 5%;
+        padding-top: 25%;
+        font-size: 120%;
+    }
+    .Banner .Subheading
+    {
+        padding-left: 5%;
+        font-size: 80%;
+    }
+    .Banner .ButtonAreaMobile
+    {
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+    }
+    .Banner .ButtonAreaMobile .Left
+    {
+        display: flex;
+        justify-content: left;
+        width: 45%;
+        margin-left: 5%;
+    }
+    .Banner .ButtonAreaMobile .Left button{
+        background-color: transparent;
+        border: none;
+        font-size: 120%;
+        color: white;
+        padding: 1%;
+    }
+    .Banner .ButtonAreaMobile .Right
+    {
+        display: flex;
+        justify-content: right;
+        width: 45%;
+        margin-right: 5%;
+    }
+    .Banner .ButtonAreaMobile .Right button{
+        background-color: transparent;
+        font-size: 120%;
+        color: white;
+        padding: 1%;
+        border:1px solid white;
+        border-radius: 5px;
+    }
 }

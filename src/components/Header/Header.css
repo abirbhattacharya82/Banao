@@ -139,7 +139,7 @@
 
 
 .LoginAreaDesktop {
-    position: absolute;
+    position: fixed;
     z-index: 1;
     width: 100%;
     height: 100vh;
@@ -319,4 +319,13 @@
     font-size: 11px;
     padding: 5%;
     opacity: 60%;
+}
+
+
+
+@media(max-width:1000px)
+{
+    .Header{
+        display: none;
+    }
 }

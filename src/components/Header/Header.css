@@ -185,13 +185,14 @@
     border-radius: 21px;
 }
 
-.LoginAreaDesktop .Form .FormfieldArea .Formfield .Heading{
+#formtop{
     text-align: center;
     color: #008A45;
     background-color: #EFFFF4;
     padding: 1%;
     border-top-right-radius: 21px;
     border-top-left-radius: 21px;
+    font-size: 16px;
 }
 
 .LoginAreaDesktop .Form .FormfieldArea .Formfield .SecondLine{

@@ -3,7 +3,7 @@ import './Header.css';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
@@ -12,10 +12,7 @@ import loginPage from './loginImage.png';
 function Header() {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [showPassword, setShowPassword] = useState(false);
-    useEffect(() => {
-        const loginStatus = localStorage.getItem('loginStatus');
-        setIsLoggedIn(loginStatus === 'true');
-    }, []);
+    localStorage.status=false;
     function toggle(){
         setShowPassword(!showPassword);
     }
@@ -33,6 +30,12 @@ function Header() {
         document.getElementById('login').style.display="none";
         document.getElementById('register').style.display="flex";
     }
+    function signIn(){
+        document.getElementById('login').style.display="none";
+        document.getElementById('register').style.display="none";
+        setIsLoggedIn(true);
+        localStorage.status=true;
+    }
     return (
         <div className='Header'>
 
@@ -45,7 +48,7 @@ function Header() {
                     </div>
                     <div className="FormfieldArea">
                         <div className="Formfield">
-                            <div className="Heading">
+                            <div className="Heading"  id='formtop'>
                                 Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼
                             </div>
                             <div className="SecondLine">
@@ -76,7 +79,7 @@ function Header() {
                                         </button>
                                     </div>
                                     <div className="ButtonArea">
-                                        <button>
+                                        <button onClick={signIn}>
                                             Sign In
                                         </button>
                                     </div>
@@ -115,7 +118,7 @@ function Header() {
                     </div>
                     <div className="FormfieldArea">
                         <div className="Formfield">
-                            <div className="Heading">
+                            <div className="Heading" id='formtop'>
                                 Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼
                             </div>
                             <div className="SecondLine">
@@ -153,7 +156,7 @@ function Header() {
                                     </div>
                                     <div className="ButtonArea">
                                         <button>
-                                            Sign In
+                                            Create Account
                                         </button>
                                     </div>
                                     <div className="ButtonAreaSSO">

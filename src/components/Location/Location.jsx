@@ -7,6 +7,7 @@ import Warning from '../Warning/Warning';
 import Groups from '../Groups/Groups';
 
 function Location() {
+    
     return (
         <div className="Location">
             <div className="MoveR">

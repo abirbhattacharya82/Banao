@@ -2,6 +2,7 @@
     margin-left: 9%;
     margin-top: 54px;
     text-align: left;
+    display: none;
 }
 .Groups .Heading{
     display: flex;

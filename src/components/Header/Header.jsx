@@ -35,6 +35,7 @@ function Header() {
         document.getElementById('register').style.display="none";
         setIsLoggedIn(true);
         localStorage.status=true;
+        document.getElementById('groups_id_here').style.display="block";
     }
     return (
         <div className='Header'>

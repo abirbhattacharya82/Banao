@@ -5,7 +5,7 @@ import './Groups.css';
 
 function Groups(){
     return(
-        <div className="Groups">
+        <div className="Groups" id="groups_id_here">
             <div className="Heading">
                 <div className="Image">
                 <FontAwesomeIcon icon={faThumbsUp} className="like" />

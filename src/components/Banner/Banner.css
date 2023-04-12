@@ -3,3 +3,22 @@
     background-image: url("./computer-engineering-background.jpg");
     background-size: cover;
 }
+.Banner .Text{
+    padding-top: 286px;
+    padding-left: 200px;
+    padding-bottom: 81px;
+    background-color: rgba(0,0,0,0.5);
+}
+.Heading{
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    font-size: 36px;
+}
+.Subheading{
+    color: white;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 4px;
+}

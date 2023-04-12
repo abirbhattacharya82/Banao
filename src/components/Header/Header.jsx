@@ -3,11 +3,14 @@ import './Header.css';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { useState } from 'react';
-import Siddharth_Goyal from './joseph-gray.jpg';
+import { useState, useEffect } from 'react';
 
 function Header() {
-    const [isLoggedIn,setIsLoggedIn] = useState(true);
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+    useEffect(() => {
+        const loginStatus = localStorage.getItem('loginStatus');
+        setIsLoggedIn(loginStatus === 'true');
+    }, []);
     return (
         <div className='Header'>
             <div className="Logo">
@@ -18,7 +21,7 @@ function Header() {
                     W
                 </div>
                 <div className="Union">
-                    <img src={union} alt=''/>
+                    <img src={union} alt='' />
                 </div>
                 <div className="World">
                     RLD
@@ -34,7 +37,7 @@ function Header() {
             </div>
             <div className="LoggedArea">
                 {
-                    isLoggedIn? <div className="LoggedIn"><div className="Image"></div><div className="Text">Siddharth Goyal</div></div> : <div className="NotLoggedIn"><div className="Black">Create an Account. </div><div className="Blue">It's free</div></div>
+                    isLoggedIn ? <div className="LoggedIn"><div className="Image"></div><div className="Text">Siddharth Goyal</div></div> : <div className="NotLoggedIn"><div className="Black">Create an Account. </div><div className="Blue">It's free</div></div>
                 }
                 <button><div className="Triangle"></div></button>
             </div>

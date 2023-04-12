@@ -1,0 +1,127 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.Header .Logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 30%;
+}
+
+.Header .Logo .Atg {
+    color: #27A365;
+    font-size: 21px;
+}
+
+.Header .Union {
+    width: 23px;
+    height: 24px;
+}
+
+.Header .Union img {
+    width: 85%;
+    height: 75%;
+    margin-top: 4px;
+}
+
+.Header .Logo .World {
+    color: #5C5D5D;
+    font-size: 21px;
+}
+
+
+.Header .Searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.Header .Searchbar .container {
+    display: flex;
+    height: 30px;
+    width: 360px;
+}
+
+.Header .Searchbar .container button {
+    border: none;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 21px;
+    border-top-left-radius: 21px;
+}
+
+.Header .Searchbar .container button .SearchIcon {
+    color: #7A7A7A;
+    font-size: 15px;
+}
+
+.Header .Searchbar .container input {
+    background-color: #F2F2F2;
+    color: #7A7A7A;
+    outline: none;
+    border: none;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    width: 100%;
+}
+
+.LoggedArea {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 30%;
+}
+
+.LoggedArea .NotLoggedIn {
+    display: flex;
+}
+
+.LoggedArea .NotLoggedIn .Black {
+    color: #2E2E2E;
+}
+
+.LoggedArea .NotLoggedIn .Blue {
+    color: #2F6CE5;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.LoggedArea button {
+    background-color: transparent;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.LoggedArea button .Triangle {
+    width: 10px;
+    height: 7px;
+    clip-path: polygon(50% 70%, 0 0, 100% 0);
+    background-color: #2E2E2E;
+}
+
+.LoggedArea .LoggedIn{
+    display: flex;
+}
+
+.LoggedArea .LoggedIn .Image{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background-image: url("./joseph-gray.jpg");
+    background-size: cover;
+}
+
+.LoggedArea .LoggedIn .Text{
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2E2E2E;
+    margin-left: 2px;
+    margin-right: 2px;
+}

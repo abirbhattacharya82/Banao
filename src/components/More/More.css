@@ -27,3 +27,49 @@
     padding: 5%;
     background-color: white;
 }
+
+@media(max-width:1000px)
+{
+    .More {
+        position: absolute;
+        margin-left: 80%;
+        text-align: right;
+        width: 150px;
+    }
+}
+@media(max-width:900px)
+{
+    .More {
+        position: absolute;
+        margin-left: 70%;
+        text-align: right;
+        width: 150px;
+    }
+}
+@media(max-width:600px)
+{
+    .More {
+        position: absolute;
+        margin-left: 60%;
+        text-align: right;
+        width: 150px;
+    }
+}
+@media(max-width:500px)
+{
+    .More {
+        position: absolute;
+        margin-left: 55%;
+        text-align: right;
+        width: 150px;
+    }
+}
+@media(max-width:360px)
+{
+    .More {
+        position: absolute;
+        margin-left: 40%;
+        text-align: right;
+        width: 150px;
+    }
+}

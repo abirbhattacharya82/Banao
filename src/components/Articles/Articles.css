@@ -10,3 +10,19 @@
 .Articles .Right{
     width: 40%;
 }
+
+@media(max-width:1000px)
+{
+    .Articles
+    {
+        margin: 0%;
+    }
+    .Articles .Right
+    {
+        display: none;
+    }
+    .Articles .Left
+    {
+        width:100%;
+    }
+}

@@ -1,0 +1,12 @@
+.Articles{
+    margin-top: 12px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+}
+.Articles .Left{
+    width: 60%;
+}
+.Articles .Right{
+    width: 40%;
+}

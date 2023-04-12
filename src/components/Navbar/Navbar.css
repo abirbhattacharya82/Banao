@@ -4,11 +4,12 @@
     margin-right: 15%;
     margin-top: 5%;
     border-bottom: 1px solid #E0E0E0;
+    justify-content: center;
 }
 .Navbar .LeftButtons{
     display: flex;
     justify-content: left;
-    width: 35%;
+    width: 70%;
 }
 .Navbar .LeftButtons button{
     font-size: 16px;
@@ -27,10 +28,10 @@
 .Navbar .RightButtons{
     display: flex;
     justify-content: right;
-    width:65%;
+    width: 30%;
 }
 .Navbar .RightButtons button{
-    width: 20%;
+    width: 50%;
 }
 .Navbar .RightButtons #wp{
     height: 36px;

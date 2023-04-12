@@ -1,4 +1,9 @@
 .Header {
+    margin: 0%;
+    padding: 0%;
+}
+
+.Header .Head {
     display: flex;
     justify-content: center;
     padding: 1%;
@@ -104,11 +109,11 @@
     background-color: #2E2E2E;
 }
 
-.LoggedArea .LoggedIn{
+.LoggedArea .LoggedIn {
     display: flex;
 }
 
-.LoggedArea .LoggedIn .Image{
+.LoggedArea .LoggedIn .Image {
     width: 36px;
     height: 36px;
     border-radius: 100%;
@@ -116,7 +121,7 @@
     background-size: cover;
 }
 
-.LoggedArea .LoggedIn .Text{
+.LoggedArea .LoggedIn .Text {
     height: 36px;
     display: flex;
     justify-content: center;
@@ -124,4 +129,144 @@
     color: #2E2E2E;
     margin-left: 2px;
     margin-right: 2px;
+}
+
+.LoginAreaDesktop {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.LoginAreaDesktop .Form {
+    width: 736px;
+    border: 1px solid red;
+}
+
+.LoginAreaDesktop .Form .Crossbutton {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 2%;
+}
+
+.LoginAreaDesktop .Form .Crossbutton button {
+    border: none;
+    background-color: white;
+    border-radius: 100%;
+    height: 23px;
+    width: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginAreaDesktop .Form .Crossbutton button .cross {
+    font-size: 21px;
+}
+
+.LoginAreaDesktop .Form .FormfieldArea{
+    display: flex;
+    justify-content: center;
+}
+
+.LoginAreaDesktop .Form .FormfieldArea .Formfield{
+    width: 97%;
+    background-color: white;
+    border-radius: 21px;
+}
+
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .Heading{
+    text-align: center;
+    color: #008A45;
+    background-color: #EFFFF4;
+    padding: 1%;
+    border-top-right-radius: 21px;
+    border-top-left-radius: 21px;
+}
+
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .SecondLine{
+    display: flex;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .SecondLine .Left{
+    font-size: 31px;
+    width: 45%;
+    padding-left: 5%;
+    text-align: left;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .SecondLine .Right{
+    display: flex;
+    width: 45%;
+    padding-right: 5%;
+    justify-content: right;
+    align-items: center;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .SecondLine .Right .Text{
+    font-size: 13px;
+    color:#3D3D3D;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .SecondLine .Right .Text button{
+    border: none;
+    background-color: transparent;
+    color: #2F6CE5;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm{
+    display: flex;
+    padding-top: 2%;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm .Left{
+    width: 45%;
+    margin-left: 5%;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm .Left .InputArea
+{
+    width: 100%;
+    display: flex;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm .Left .InputArea input{
+    width: 100%;
+    border: 1px solid #D9D9DB;
+    background-color: #F7F8FA;
+    color: #8A8A8A;
+    font-size: 16px;
+    padding:2%;
+    outline: none;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm .Left .InputArea button{
+    width: 10%;
+    border: 1px solid #D9D9DB;
+    background-color: #F7F8FA;
+    border-left: none;  
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm .Left .InputArea button .password-icon{
+    color: #8A8A8A;
+    font-size: 16px;
+}
+#password{
+    border-right: none;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm .Left .ButtonArea{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.LoginAreaDesktop .Form .FormfieldArea .Formfield .MainForm .Left .ButtonArea button{
+    width: 100%;
+    font-size: 16px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F6CE5;
+    border-radius: 20px;
+    border: none;
+    color: white;
 }

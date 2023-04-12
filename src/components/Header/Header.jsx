@@ -16,6 +16,9 @@ function Header() {
         const loginStatus = localStorage.getItem('loginStatus');
         setIsLoggedIn(loginStatus === 'true');
     }, []);
+    function toggle(){
+        setShowPassword(!showPassword);
+    }
     function closeLogin(){
         document.getElementById('login').style.display="none";
     }
@@ -65,7 +68,7 @@ function Header() {
                                     </div>
                                     <div className="InputArea">
                                         <input type="password" placeholder='Password' id='password' />
-                                        <button>
+                                        <button onClick={toggle}>
                                             <FontAwesomeIcon
                                                 icon={showPassword ? faEyeSlash : faEye}
                                                 className="password-icon"
@@ -138,7 +141,7 @@ function Header() {
                                     </div>
                                     <div className="InputArea">
                                         <input type="password" placeholder='Password' id='password' />
-                                        <button>
+                                        <button onClick={toggle}>
                                             <FontAwesomeIcon
                                                 icon={showPassword ? faEyeSlash : faEye}
                                                 className="password-icon"

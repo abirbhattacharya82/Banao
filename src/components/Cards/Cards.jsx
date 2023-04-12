@@ -4,6 +4,9 @@ import More from '../More/More';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { faShareAlt } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarAlt } from '@fortawesome/free-regular-svg-icons';
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faSuitcaseRolling } from '@fortawesome/free-solid-svg-icons';
 
 function Cards() {
     return (
@@ -93,6 +96,11 @@ function Cards() {
                     </div>
                     <More />
                 </div>
+                <div className="Spans">
+                    <div className="About"><FontAwesomeIcon icon={faCalendarAlt} /> Fri, 12 Oct, 2018</div>
+                    <div className="About"><FontAwesomeIcon icon={faMapMarkerAlt} /> Ahmedabad, India</div>
+                </div>
+                <button id="type1But">Visit Website</button>
                 <div className="Postedby">
                     <div className="Left">
                         <div className="Pfp" id="pfp3">
@@ -123,6 +131,11 @@ function Cards() {
                     </div>
                     <More />
                 </div>
+                <div className="Spans">
+                    <div className="About"><FontAwesomeIcon icon={faSuitcaseRolling} /> Innovaccer Analytics Private Ltd.</div>
+                    <div className="About"><FontAwesomeIcon icon={faMapMarkerAlt} /> Noida, India</div>
+                </div>
+                <button id="type2But">Visit Website</button>
                 <div className="Postedby">
                     <div className="Left">
                         <div className="Pfp" id="pfp4">

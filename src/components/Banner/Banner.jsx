@@ -2,8 +2,14 @@ import React from "react";
 import './Banner.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { useState } from "react";
+import MobileLogin from "../MobileLogin/MobileLogin";
 
 function Banner() {
+    function showLogin()
+    {
+        document.getElementById('mobile_login_form_unique').style.display="block";
+    }
     return (
         <div className="Banner">
             <div className="Text">
@@ -12,7 +18,7 @@ function Banner() {
                         <button><FontAwesomeIcon icon={faArrowLeft} /></button>
                     </div>
                     <div className="Right">
-                        <button>Join Group</button>
+                        <button onClick={showLogin}>Join Group</button>
                     </div>
                 </div>
                 <div className="Heading">

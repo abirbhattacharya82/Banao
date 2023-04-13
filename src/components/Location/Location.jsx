@@ -13,7 +13,7 @@ function Location() {
             <div className="MoveR">
                 <div className="InputArea">
                     <FontAwesomeIcon icon={faMapMarkerAlt} />
-                    <input type="text" />
+                    <input type="text" id="location_searchbar" />
                     <button id="location_search">
                         <FontAwesomeIcon icon={faTimes} id="loc" />
                     </button>

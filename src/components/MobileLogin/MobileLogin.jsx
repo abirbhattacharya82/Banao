@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import './MobileLogin.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -6,7 +6,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 
 function MobileLogin() {
-    const [showPassword, setShowPassword] = useState(false);
+    const showPassword=false;
     function showRegister(){
         document.getElementById('mobile_login').style.display="none";
         document.getElementById('mobile_register').style.display="block";

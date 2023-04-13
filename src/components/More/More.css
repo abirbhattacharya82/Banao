@@ -50,12 +50,21 @@
 {
     .More {
         position: absolute;
-        margin-left: 60%;
+        margin-left: 65%;
         text-align: right;
         width: 150px;
     }
 }
 @media(max-width:500px)
+{
+    .More {
+        position: absolute;
+        margin-left: 60%;
+        text-align: right;
+        width: 150px;
+    }
+}
+@media(max-width:400px)
 {
     .More {
         position: absolute;
@@ -68,7 +77,7 @@
 {
     .More {
         position: absolute;
-        margin-left: 40%;
+        margin-left: 45%;
         text-align: right;
         width: 150px;
     }

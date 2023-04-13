@@ -10,6 +10,11 @@
         background-color: rgba(0, 0, 0, 0.5);
         z-index: 1;
     }
+    
+    #mobile_register
+    {
+        display: none;
+    }
 
     .Area .Form {
         margin-top: 20vh;
